@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap");
+
+.registration-container {
+  max-width: 400px;
+  margin-top: 30px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Rubik", sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+.logo-link {
+  text-decoration: none;
+  margin: 0;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.input-field {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.submit-button {
+  background-color: #ef3837;
+  width: 50%;
+  max-width: 200px;
+  padding: 10px 0px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 8px auto;
+}
+
+.submit-button:hover {
+  background-color: #bb2222;
+}
+
+.registration-message {
+  text-align: center;
+}
+
+.registration-success {
+  color: #2ecc71;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.read-joy {
+  font-size: 16px;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .registration-container {
+    max-width: 100%;
+  }
+}
